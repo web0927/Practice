@@ -5,10 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 375 * 100 + 'px';
+    </script>
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js//libs/require.js" async='true' defer data-main='./js/main'></script>
 </head>
 <body>
-    
+    <div class="wrap">
+        <header>
+            <a href="https://www.baidu.com">首页</a>
+            <a href="http://home.baidu.com/contact.html">联系我们</a>
+            <a href="https://home.baidu.com/">关于我们</a>
+        </header>
+        <section>
+            <ul class="list">
+                <li>
+                    <span>序号</span>
+                    <span>姓名</span>
+                    <span>性别</span>
+                    <span>年龄</span>
+                    <span>身高</span>
+                </li>
+            </ul>
+        </section>
+        <footer>
+                Copyright ©2018 _city
+        </footer>
+    </div>
+    <script type='text/x-handlebars-template' id='tpema'>
+        {{#each this}}
+            <li>
+                <span>{{addIndex @index}}</span>
+                <span>{{name}}</span>
+                <span>{{sex}}</span>
+                <span>{{age}}</span>
+                <span>{{height}}</span>
+            </li>
+        {{/each}}
+    </script>
 </body>
 </html>

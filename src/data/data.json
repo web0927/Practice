@@ -1,0 +1,11 @@
+[
+    {"name":"张三", "sex":"男", "age":"18", "height":"168"},
+    {"name":"王五", "sex":"男", "age":"22", "height":"182"},
+    {"name":"李丽", "sex":"女", "age":"21", "height":"175"},
+    {"name":"赵华", "sex":"男", "age":"18", "height":"168"},
+    {"name":"韩朋", "sex":"男", "age":"26", "height":"178"},
+    {"name":"李志", "sex":"男", "age":"23", "height":"182"},
+    {"name":"孙倩", "sex":"女", "age":"25", "height":"173"},
+    {"name":"邛崃", "sex":"男", "age":"17", "height":"171"},
+    {"name":"绮雯", "sex":"女", "age":"22", "height":"168"}
+]
